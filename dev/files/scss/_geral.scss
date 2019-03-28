@@ -1,0 +1,46 @@
+body{
+    padding-top: 120px;
+    background-color: #efefef;
+}
+
+.yellow{
+    color: #fac61d;
+}
+
+h1, h2, h3, h4, h5, p{
+    font-family: "Open Sans";
+    line-height: 1;
+}
+
+a{
+    text-decoration: none;
+}
+
+.padding-none{
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.grid{
+    display: inline-grid;
+}
+
+.centraliza{
+    text-align: center;
+}
+
+.relative{
+    position: relative;
+}
+
+@keyframes movseta {
+    0% {top: -15px;}
+    50% {top: 0px;}
+    100% {top: -15px;}
+}
+
+@media screen and (max-width: 991px){
+    body{
+        padding-top: 30px;
+    }
+}

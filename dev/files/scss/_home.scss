@@ -1,0 +1,1010 @@
+.grade{
+    column-count: 2;
+    column-gap: 6.5em;
+    .project, .forms{
+        display: inline-block;
+        width: 100%;
+        position: relative;
+        margin-bottom: 70px;
+    }
+
+    .project.Outback{
+        height: 647px;
+        .project-box{
+            height: 647px;
+        }
+    }
+    
+    .project{
+        .project-box{
+            height: 517px;
+            overflow: hidden;
+            display: inline-block;
+            width: 100%;
+            position: relative;
+            margin-bottom: 70px;
+            &:hover{
+                .main-img-box{
+                    transform: scale(1.1);
+                }
+            }
+        }
+        .box-txt{
+            position: relative;
+            z-index: 1;
+            padding: 60px 0px 0px 80px;
+        }
+        .box-txt-2{
+            position: absolute;
+            bottom: 0;
+            z-index: 1;
+            padding: 0px 0px 60px 80px;
+        }
+        a.categoria{
+            display: inline-block;
+            text-decoration: none;
+            font-size: 16px;
+            font-weight: 600;
+            text-transform: uppercase;
+            margin: 0;
+        }
+        h3{
+            font-size: 45px;
+            font-weight: 900;
+            text-transform: uppercase;
+            margin-top: 5px;
+            margin-bottom: 0px;
+            a{
+                color: #fff;
+            }
+        }
+        h4{
+            font-size: 45px;
+            font-weight: 100;
+            text-transform: initial;
+            margin-top: 0px;
+            margin-bottom: 0px;
+            a{
+                color: #fff;
+            }
+        }
+        .saiba-mais{
+            font-size: 70px;
+            line-height: 0.3;
+            letter-spacing: -7px;
+        }
+        .main-img-box{
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            z-index: 0;
+            transition: all .4s ease-in-out;
+        }
+        .img-absolute{
+            position: absolute;
+            z-index: 2;
+        }
+    }
+}
+
+.frm_forms.with_frm_style.frm_style_formidable-style{
+    .frm_fields_container{
+        #frm_field_9_container{
+            position: initial;
+        }
+        .frm_form_field{
+            position: relative;
+            div{
+                padding: 0;
+            }
+            h3{
+                font-size: 18px;
+                color: $ionzMain;
+                text-transform: uppercase;
+            }
+            .logo-form{
+                height: 138px;
+                text-indent: -999999px;
+                background: url('http://localhost/novoionz/wp-content/uploads/2018/10/logo-ionz-principal.png') left center no-repeat;
+                background-size: contain;
+            }
+            h4{
+                color: $ionzMain;
+                font-size: 48px;
+                font-weight: 100;
+            }
+            .yellow{
+                display: inline-block;
+                color: $amarelo;
+                cursor: pointer;
+                line-height: 0.3;
+                letter-spacing: -2px;
+            }
+            .img-first-form{
+                width: 100%;
+                margin-top: 90px;
+                margin-left: -40px;
+            }
+            input{
+                background-color: transparent;
+                border: 0px;
+                box-shadow: 0 1px 1px rgba(0, 0, 0, 0.0) inset;
+                border-radius: 0px;
+            }
+            .txt-radar{
+                text-transform: uppercase;
+                font-weight: 900;
+                line-height: 1;
+                span{
+                    text-transform: lowercase;
+                    font-weight: 100;
+                }
+            }
+        }
+        .frm_submit{
+            button{
+                background-color: transparent;
+                border: 0px;
+                box-shadow: 0 1px 1px rgba(0, 0, 0, 0.0) inset;
+                border-radius: 0px;
+                font-size: 55px;
+                font-weight: 700;
+            }
+        }
+    }
+    .intro-form{
+        padding: 60px 5px 20px 80px;
+        .parte-2, .parte-2 ~ .frm_submit{
+            display: none;
+        }
+        .frm_inside_container{
+            padding-right: 80px;
+        }
+        .parte-2{
+            label{
+                color: #05d5f8;
+                font-weight: 400;
+            }
+            input{
+                color: $amarelo;
+                border-bottom: 2px solid $amarelo;
+                &:focus{
+                    color: $ionzMain;
+                    background-color: transparent;
+                    border-color: #05d5f8;
+                    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.0) inset;
+                }
+                &::placeholder{
+                    color: $amarelo;
+                }
+                &:-ms-input-placeholder{
+                    color: $amarelo;
+                }
+                &::-ms-input-placeholder{
+                    color: $amarelo;
+                }
+            }
+        }
+
+        .frm_error{
+            position: absolute;
+            top: 38px;
+            right: 83px;
+            font-size: 9px;
+        }
+
+        .parte-2 ~ .frm_submit{
+            button{
+                position: absolute;
+                bottom: 26px;
+                right: 0;
+                color: $amarelo;
+            }
+        }
+
+        .marca-intro{
+            position: absolute;
+            top: 63px;
+            left: 0;
+        }
+    }
+    .radar-form{
+        background-color: #fff;
+        padding: 60px 80px 20px 80px;
+        .radar-content{
+            .ionz-radar{
+                font-size: 18px;
+                font-weight: 600;
+                text-transform: uppercase;
+                color: #ff4600;
+                margin-bottom: 50px;
+            }
+            p{
+                color: #00ff9d;
+            }
+            .img-radar{
+                margin-top: 28px;
+                width: 100%;
+            }
+            label{
+                color: #00ff9d;
+                font-weight: 400;
+            }
+            input{
+                color: #00ff9d;
+                border-bottom: 2px solid #00ff9d;
+                &:focus{
+                    color: $ionzMain;
+                    background-color: transparent;
+                    border-color: #00ff9d;
+                    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.0) inset;
+                }
+                &::placeholder{
+                    color: #00ff9d;
+                }
+                &:-ms-input-placeholder{
+                    color: #00ff9d;
+                }
+                &::-ms-input-placeholder{
+                    color: #00ff9d;
+                }
+            }
+        }
+
+        .radar-content ~ .frm_submit{
+            button{
+                color: #00ff9d;
+            }
+        }
+    }
+    .trabalhe-conosco{
+        background-color: #fff;
+        padding: 60px 80px 20px 80px;
+        .frm_form_field{
+            h3{
+                margin-top: 5px;
+                margin-bottom: 5px;
+            }
+            .txt-cafe{
+                font-size: 45px;
+                color: #ff0043;
+                font-weight: 900;
+                text-transform: uppercase;
+            }
+            h4{
+                margin-top: 5px;
+                margin-bottom: 5px;
+            }
+            a{
+                font-size: 45px;
+                color: #ff0043;
+                text-decoration: none;
+                line-height: 0.4;
+                letter-spacing: -3px;
+            }
+            img{
+                width: 50%;
+                float: right;
+            }
+        }
+        .frm_submit{
+            display: none;
+        }
+    }
+    .facebook{
+        background-color: $ionzMain;
+        padding: 60px 80px 20px 80px;
+        .frm_form_field{
+            img{
+                margin: -30px 0px -15px -50px;
+                width: 100%;
+            }
+            h3{
+                color: #03d6f4;
+                font-weight: 600;
+                margin-top: 5px;
+                margin-bottom: 5px;
+            }
+            .txt-face{
+                font-size: 45px;
+                color: #fff;
+                font-weight: 900;
+                text-transform: uppercase;
+            }
+            h4{
+                color: #fff;
+                margin-top: 5px;
+                margin-bottom: 5px;
+            }
+            a{
+                font-size: 45px;
+                color: #03d6f4;
+                text-decoration: none;
+                line-height: 0.4;
+                letter-spacing: -3px;
+            }
+        }
+        .frm_submit{
+            display: none;
+        }
+    }
+    .frm_message{
+        border: 0px solid transparent;
+        background-color: transparent;
+        color: $ionzMain;
+        border-radius: 0px;
+        margin: 0px;
+        padding: 0;
+        .intro-form{
+            h3{
+                font-size: 18px;
+                color: $ionzMain;
+                text-transform: uppercase;
+            }
+            .logo-form{
+                height: 138px;
+                text-indent: -999999px;
+                background: url('http://localhost/novoionz/wp-content/uploads/2018/10/logo-ionz-principal.png') left center no-repeat;
+                background-size: contain;
+            }
+            h4{
+                color: $ionzMain;
+                font-size: 48px;
+                font-weight: 100;
+            }
+            .marca-intro{
+                position: absolute;
+                top: 70px;
+                left: 20px;
+                width: 50px;
+            }
+            .intro-conf{
+                h3{
+                    font-size: 16px;
+                    color: $amarelo;
+                    font-weight: 600;
+                    margin-top: 70px;
+                }
+                .intro-sign{
+                    color: #03d6f4;
+                    font-weight: 900;
+                }
+            }
+            .intro-conf-2{
+                img{
+                    position: absolute;
+                    bottom: 47px;
+                    right: 54px;
+                }
+            }
+        }
+        .radar-form{
+            display: inline-block;
+            padding: 60px 80px 40px 80px;
+            .ionz-radar{
+                font-size: 18px;
+                font-weight: 600;
+                text-transform: uppercase;
+                color: #ff4600;
+                margin-bottom: 50px;
+            }
+            p{
+                color: #00ff9d;
+            }
+            .img-radar{
+                margin-top: 28px;
+                width: 100%;
+            }
+            .txt-radar{
+                font-size: 48px;
+                text-transform: uppercase;
+                font-weight: 900;
+                line-height: 1;
+                span{
+                    text-transform: lowercase;
+                    font-weight: 100;
+                }
+            }
+            .msg-conf{
+                h3{
+                    display: inline-block;
+                    font-size: 18px;
+                    color: #00ff9d;
+                    font-weight: 600;
+                    text-transform: uppercase;
+                    margin-bottom: 0;
+                }
+                h4{
+                    font-size: 40px;
+                    color: #ff4600;
+                    font-weight: 100;
+                    margin-top: 5px;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1199px) {
+    .grade{
+        .project.Outback{
+            .project-box{
+                height: 525px;
+            }
+        }
+
+        .project{
+            .project-box{
+                height: 419px;
+                .box-txt-2{
+                    padding: 0px 0px 40px 80px;
+                }
+            }
+        }
+
+        .frm_forms.with_frm_style.frm_style_formidable-style{
+            .frm_fields_container{
+                .frm_form_field{
+                    h4{
+                        font-size: 45px;
+                    }
+                }
+            }
+            .intro-form{
+                padding: 40px 5px 20px 40px;
+                .marca-intro{
+                    top: 58px;
+                    left: -4px;
+                    width: 40px;
+                }
+            }
+            .radar-form{
+                padding: 50px 40px 20px 40px;
+            }
+            .trabalhe-conosco{
+                padding: 55px 40px 20px 40px;
+            }
+            .facebook{
+                padding: 30px 40px 20px 40px;
+                .frm_form_field{
+                    img{
+                        margin: -30px 0px -15px -35px;
+                        width: 90%;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 991px){
+    .grade{
+        column-count: 1;
+        column-gap: 0;
+        .project.Outback{
+            .project-box{
+                height: 890px;
+            }
+        }
+
+        .project{
+            .project-box{
+                height: 710px;
+                .box-txt-2{
+                    padding: 0px 0px 40px 80px;
+                }
+            }
+        }
+
+        .frm_forms.with_frm_style.frm_style_formidable-style{
+            .frm_fields_container{
+                .frm_form_field{
+                    h4{
+                        font-size: 45px;
+                    }
+                }
+            }
+            .intro-form{
+                padding: 40px 100px 20px 100px;
+                .frm_fields_container{
+                    .frm_form_field{
+                        h3{
+                            font-size: 25px;
+                        }
+                    }
+                    
+                    .frm_inside_container{
+                        padding-right: 100px;
+                    }
+                }
+                .marca-intro{
+                    top: 52px;
+                    left: 37px;
+                    width: 55px;
+                }
+            }
+            .radar-form{
+                padding: 50px 90px 20px 90px;
+                .radar-content{
+                    .img-radar{
+                        margin-top: -25px;
+                    }
+                }
+            }
+            .trabalhe-conosco{
+                padding: 50px 90px 20px 90px;
+            }
+            .facebook{
+                padding: 30px 80px 20px 215px;
+                .frm_form_field{
+                    img{
+                        width: 75%;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 767px){
+    .grade{
+        .project.Outback{
+            .project-box{
+                height: 910px;
+            }
+        }
+
+        .project{
+            .project-box{
+                height: 727px;
+                .box-txt-2{
+                    padding: 0px 0px 40px 80px;
+                }
+                .img-absolute{
+                    display: none;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 730px){
+    .grade{
+        .project.Outback{
+            .project-box{
+                height: 825px;
+            }
+        }
+
+        .project{
+            .project-box{
+                height: 652px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 670px){
+    .grade{
+        .project.Outback{
+            .project-box{
+                height: 757px;
+            }
+        }
+
+        .project{
+            .project-box{
+                height: 599px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 610px){
+    .grade{
+        .project.Outback{
+            .project-box{
+                height: 717px;
+            }
+        }
+        .project{
+            .project-box{
+                height: 572px;
+            }
+        }
+        
+        .frm_forms.with_frm_style.frm_style_formidable-style{
+            .intro-form{
+                padding: 40px 40px 20px 80px;
+                .frm_fields_container{
+                    .frm_form_field{
+                        h3{
+                            font-size: 18px;
+                        }
+                    }
+                    
+                    .frm_inside_container{
+                        padding-right: 100px;
+                    }
+                }
+                .marca-intro{
+                    top: 58px;
+                    left: 35px;
+                    width: 40px;
+                }
+            }
+            .radar-form{
+                padding: 50px 90px 20px 90px;
+                .radar-content{
+                    .img-radar{
+                        margin-top: -25px;
+                    }
+                }
+            }
+            .trabalhe-conosco{
+                padding: 50px 90px 20px 90px;
+            }
+            .facebook{
+                padding: 30px 80px 20px 120px;
+                .frm_form_field{
+                    img{
+                        width: 75%;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 570px){
+    .grade{
+        .project.Outback{
+            .project-box{
+                height: 632px;
+            }
+        }
+
+        .project{
+            .project-box{
+                height: 500px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 520px){
+    .grade{
+        .project.Outback{
+            .project-box{
+                height: 573px;
+            }
+        }
+        .project{
+            .project-box{
+                height: 454px;
+            }
+        }
+
+        .frm_forms.with_frm_style.frm_style_formidable-style{
+            .intro-form{
+                padding: 40px 40px 20px 40px;
+                .marca-intro{
+                    top: 64px;
+                    left: 5px;
+                    width: 30px;
+                }
+            }
+            .radar-form{
+                padding: 50px 40px 20px 40px;
+            }
+            .trabalhe-conosco{
+                padding: 50px 70px 20px 50px;
+            }
+            .facebook{
+                padding: 30px 80px 20px 70px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 480px){
+    .grade{
+        .project.Outback{
+            .project-box{
+                height: 525px;
+            }
+        }
+        .project{
+            .project-box{
+                height: 405px;
+            }
+        }
+        .frm_forms.with_frm_style.frm_style_formidable-style{
+            .intro-form{
+                .frm_fields_container{
+                    .frm_form_field{
+                        .intro{
+                            width: 100%;
+                            float: none;
+                            &:nth-of-type(2){
+                                text-align: right;
+                            }
+                            .img-first-form{
+                                width: 150px;
+                                margin-top: -32px;
+                                margin-left: 0px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 440px){
+    .grade{
+        .project.Outback{
+            .project-box{
+                height: 477px;
+            }
+        }
+
+        .project{
+            .project-box{
+                height: 375px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 425px){
+    .grade{
+        .forms{
+            &:nth-of-type(1){
+                margin-bottom: 10px;
+            }
+        }
+        .project.Outback{
+            .project-box{
+                height: 455px;
+            }
+        }
+        .project{
+            .project-box{
+                height: 353px;
+                .box-txt{
+                    padding: 45px 0px 0px 40px;
+                }
+                .box-txt-2{
+                    padding: 0px 0px 10px 20px;
+                }
+            }
+        }
+
+        .frm_forms.with_frm_style.frm_style_formidable-style{
+            .radar-form{
+                padding: 30px 25px 20px 25px;
+            }
+            .trabalhe-conosco{
+                padding: 30px 25px 20px 20px;
+            }
+            .facebook{
+                padding: 30px 20px 20px 35px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 380px){
+    .grade{
+        .forms{
+            &:nth-of-type(1){
+                margin-bottom: 0px;
+            }
+        }
+        .project.Outback{
+            .project-box{
+                height: 400px;
+            }
+        }
+        .project{
+            .project-box{
+                height: 320px;
+                .box-txt{
+                    padding: 45px 0px 0px 40px;
+                    a{
+                        p{
+                            font-size: 14px;
+                        }
+                    }
+                    h3{
+                        font-size: 38px;
+                    }
+                    h4{
+                        font-size: 36px;
+                    }
+                }
+                .box-txt-2{
+                    padding: 0px 0px 10px 20px;
+                    bottom: 40px;
+                    a{
+                        p{
+                            font-size: 14px;
+                        }
+                    }
+                    h3{
+                        font-size: 35px;
+                    }
+                    h4{
+                        font-size: 32px;
+                    }
+                }
+            }
+        }
+
+        .frm_forms.with_frm_style.frm_style_formidable-style{
+            .frm_fields_container{
+                .frm_form_field{
+                    h3{
+                        font-size: 16px;
+                    }
+                    .txt-cafe{
+                        font-size: 38px;
+                    }
+                    h4{
+                        font-size: 36px;
+                    }
+                }
+            }
+            .radar-form{
+                padding: 30px 25px 0px 25px;
+                .radar-content{
+                    .ionz-radar{
+                        margin-bottom: 35px;
+                    }
+                    .txt-radar{
+                        font-size: 40px;
+                    }
+                }
+            }
+            .trabalhe-conosco{
+                padding: 30px 25px 20px 10px;
+            }
+            .facebook{
+                padding: 30px 20px 20px 35px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 345px){
+    .grade{
+        .project.Outback{
+            .project-box{
+                height: 365px;
+            }
+        }
+
+        .project{
+            .project-box{
+                height: 290px;
+            }
+        }
+
+        .frm_forms.with_frm_style.frm_style_formidable-style{
+            .frm_message{
+                .intro-form{
+                    h3{
+                        font-size: 16px;
+                    }
+                    h4{
+                        font-size: 40px;
+                    }
+                    .intro-conf{
+                        h3{
+                            font-size: 14px;
+                        }
+                    }
+                    .intro-conf-2{
+                        img{
+                            bottom: 32px;
+                            right: 18px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+@media screen and (max-width: 325px){
+    .grade{
+        .project.Outback{
+            .project-box{
+                height: 345px;
+            }
+        }
+        .project{
+            .project-box{
+                height: 271px;
+                .box-txt{
+                    padding: 35px 0px 0px 30px;
+                    a{
+                        p{
+                            font-size: 14px;
+                        }
+                    }
+                    h3{
+                        font-size: 38px;
+                    }
+                    h4{
+                        font-size: 36px;
+                    }
+                }
+                .box-txt-2{
+                    padding: 0px 0px 10px 20px;
+                    bottom: 40px;
+                    a{
+                        p{
+                            font-size: 14px;
+                        }
+                    }
+                    h3{
+                        font-size: 35px;
+                    }
+                    h4{
+                        font-size: 32px;
+                    }
+                }
+            }
+        }
+
+        .frm_forms.with_frm_style.frm_style_formidable-style{
+            .frm_fields_container{
+                .frm_form_field{
+                    h3{
+                        font-size: 14px;
+                    }
+                    .txt-cafe{
+                        font-size: 35px;
+                    }
+                    h4{
+                        font-size: 33px;
+                    }
+                }
+            }
+            .radar-form{
+                padding: 30px 25px 0px 25px;
+                .radar-content{
+                    .txt-radar{
+                        font-size: 38px;
+                    }
+                    .img-radar{
+                        margin-top: 77px;
+                        margin-left: 12px;
+                        width: 85%;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 305px){
+    .grade{
+        .project.Outback{
+            .project-box{
+                height: 315px;
+            }
+        }
+
+        .project{
+            .project-box{
+                height: 250px;
+            }
+        }
+    }
+}
