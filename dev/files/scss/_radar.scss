@@ -1,0 +1,48 @@
+.radar{
+    .chamada{
+        .box-cham{
+            padding: 20px 50px 0px;
+        }
+        .txt-radar{
+            font-size: 45px;
+            color: $laranjaV;
+            text-align: right;
+            text-transform: uppercase;
+            font-weight: 900;
+            line-height: 1;
+            span{
+                color: $ionzMain;
+                text-transform: lowercase;
+                font-weight: 100;
+            }
+        }
+        .graf-cham{
+            position: absolute;
+            bottom: 20px;
+            right: 133px;
+        }
+        p{
+            font-size: 23px;
+            color: $ionzMain;
+            text-align: right;
+            margin-top: 60px;
+        }
+    }
+    .form-contato{
+        background-color: $ionzMain;
+        padding: 40px 0px;
+        margin-top: -30px;
+        .box-form{
+            padding: 20px 50px;
+        }
+        h4{
+            font-size: 18px;
+            color: #fff;
+            font-weight: 900;
+            text-align: right;
+        }
+    }
+    .downloads{
+
+    }
+}

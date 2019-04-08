@@ -105,6 +105,27 @@ get_header();
             ?>
             </div>
         </div>
+        <div class="row">
+            <a href="<?php echo $url ?>/projetos">
+                <div class="centro txt-hover">
+                    <p>Trabalhos</p>
+                    <div>
+                        <img src="<?php echo get_home_url(); ?>/wp-content/uploads/2018/10/cases.png" alt="Trabalhos">
+                    </div>
+                </div>
+            </a>
+        </div>
+    </section>
+
+    <section class="form-contato">
+        <div class="container relative">
+            <img src="<?php echo get_home_url(); ?>/wp-content/uploads/2018/10/form-sobre-nos.png" class="img-responsive chat-icon" />
+            <div class="row">
+                <div class="col-xs-12">
+                    <?php echo getForm(get_field('form_html')); ?>
+                </div>
+            </div>
+        </div>
     </section>
 </div>
 

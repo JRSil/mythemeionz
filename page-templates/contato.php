@@ -60,7 +60,7 @@ get_header();
         <a href="<?php echo get_home_url() ?>">
             <img src="<?php echo get_home_url() ?>/wp-content/uploads/2018/10/logo-ionz-menor.png" alt="Íonz" class="img-responsive" />
         </a>
-        <p>© 2018 Íonz</p>
+        <p>© 2019 Íonz</p>
     </footer>
 </div>
 <script async="async" src="<?php echo get_template_directory_uri(); ?>/files/js/all.min.js"></script>
